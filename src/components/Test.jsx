@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { Ques } from "./Ques";
 import axios from "axios";
-import { Navbar } from "./navbar";
+import { Navbar } from "./Navbar";
 import { CountdownTimer } from "./CountdownTimer";
 import '../stylesheet/styles.css'
 
