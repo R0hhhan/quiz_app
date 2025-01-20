@@ -1,8 +1,20 @@
-# React + Vite
+created a quiz application using react
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+routes, components and their usecases :
 
-Currently, two official plugins are available:
+"/"
+    LandingPage.jsx : single component which holds all the logic to collect user email.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"/test"
+
+---->> Test.jsx : uses components like CountdownTimer, Navbar, Ques to collectively showcase a Test environment.
+---->> CountdownTimer.jsx : separated the countdown logic to minimize rerendering.
+---->> Navbar : navigation bar for user to navigate between questions.
+---->> Ques : takes question data as prop from Test component and display the question with options
+
+"/finish"
+
+---->> Finish.jsx : finish page wrapped in a single component, this component shows the result and user marked options vs correct options
+
+
+vanilla css is used throughout the project, inorder to keep in minimalistic.
