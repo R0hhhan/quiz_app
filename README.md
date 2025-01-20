@@ -21,4 +21,4 @@ routes, components and their usecases :
     Finish.jsx : finish page wrapped in a single component, this component shows the result and user marked options vs correct options
 
 
-vanilla css is used throughout the project, inorder to keep in minimalistic.
+vanilla css is used throughout the project, inorder to keep it minimalistic.
